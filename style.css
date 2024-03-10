@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    enable-background: new;
+    background-color: #8edbeb;
+    color: #333;
+}
+
+header {
+    background-color: #5c4b56;
+    color: #8cfe00;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #38c5e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change the color on hover */
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+h2 {
+    color: #e64c4c;
+    padding: center;
+    background-color: rgb(236, 225, 225);
+    background-image: -moz-linear-gradient();
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.skill-label {
+    display: inline-block;
+    background-color: #333;
+    color: #6fe163;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.03); /* Enlarge on hover */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
